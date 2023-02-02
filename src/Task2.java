@@ -33,7 +33,7 @@ public class Task2 {
         System.out.println("-----------------------------------------");
         System.out.println("Task 3");
         System.out.println("-----------------------------------------");
-        int year = 1561;
+        int year = 254684;
         if (year % 4 == 0 || year % 400 == 0) {
             if (year % 100 == 0) {
                 System.out.println("Год " + year + " не високосный год");
@@ -46,7 +46,7 @@ public class Task2 {
         System.out.println("-----------------------------------------");
         System.out.println("Task 4");
         System.out.println("-----------------------------------------");
-        int deliveryDistance = 150;
+        int deliveryDistance = 21;
         int time;
         if (deliveryDistance < 20) {
             time = 1;
